@@ -1,0 +1,155 @@
+  
+@font-face {
+    font-family: "Elastre";
+    src: url("../fonts/Elastre[HEXP\,INKT].ttf");
+    font-weight: 1000;
+   
+}
+body{
+    background-color: #809684;
+    font-family: "Elastre"; 
+    color: #809684;
+    margin: 0 ;
+    font-size: 20px;
+}
+.block{
+    background-color: #FFF1F1;
+    margin: 80px 0 100px 0;
+    width: 750px;
+    padding: 25px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    z-index: 100;    
+    position: absolute;
+    height: 670px;
+}
+h5{
+   font-size: 35px; 
+   color: #CE71A3;  
+   text-align: center;
+   margin-bottom: 50px;
+}
+.img{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 690px;
+    width: 500px;
+    height: 718px;
+    padding-bottom: 20px;
+}
+input[type="tel"]{
+    width: 380px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    border-color: #809684;
+    margin-bottom: 30px;  
+    border-radius: 30px;
+    font-family: "Elastre";
+    color: #809684;
+}
+input[type="submit"]{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border-color: #CE71A3;
+    color: #CE71A3;
+    font-size: 30px;
+    font-family: "Elastre";
+    animation: bounce 5s infinite;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: #f8d7e9;
+
+}
+form{
+    margin-left: 140px;
+    padding: 30px;
+    justify-content:center;
+}
+footer{
+    background-color: #FFF1F1;
+    height: 90px;
+}
+            @keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@media (max-width: 900px) {
+    h5{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+    .block{
+    height: 490px;
+    padding: 10px;
+}
+form{
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 45px;
+}
+input[type="tel"]{ 
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.img{
+    display: none;
+}
+}
+
+@media (max-width: 480px) {
+    body{
+    font-size: 15px;
+}
+  h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+    .block{
+    height: 400px;
+    padding: 10px;
+}
+form{
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 45px;
+}
+input[type="tel"]{ 
+    width: 300px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.img{
+    display: none;
+}
+}
+@media (min-width: 900px) {
+ .block{
+    height: 600px;
+    padding: 10px;
+}
+form{
+    padding: 10px;
+}
+input[type="tel"]{
+    margin-bottom: 15px;
+}
+.img{
+    height: 620px;
+}
+}

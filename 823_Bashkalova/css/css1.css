@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Elastre";
+    src: url("../fonts/Elastre[HEXP\,INKT].ttf");
+    font-weight: 1000;
+}
+body{
+    margin: 60px 60px 60px 60px;
+    background-color: #809684;
+}
+.pinkframe{
+    font-family: "Elastre";
+    margin-bottom: 30px;
+    background-color: #FFF1F1;
+    border-radius: 37px;
+    padding: 55px 100px ;
+    text-align: center;
+}
+h1{
+    color: #CE71A3;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: #809684;
+    margin-bottom: 35px;
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    margin: 0 auto;
+}

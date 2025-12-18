@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Elastre";
+    src: url("../fonts/Elastre[HEXP\,INKT].ttf");
+    font-weight: 1000;
+   
+}
+body{
+    background-color: #FFF1F1;
+    margin-top: 20px; 
+    margin-left: 0;
+}
+.forms{
+    background-color: #809684;
+    width: 700px;
+    height: 550px;
+    border-radius: 34px;
+    display: block;
+    margin: 0 auto;
+    padding-right: 150px;  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items:last baseline ;
+}
+h3{
+    text-align:end ;
+    font-size: 40px;
+    font-family: "Elastre";
+    color: white;
+    padding: 20px;
+}
+ input[type="tel"],
+ input[type ="text"],
+ input[type="number"]{
+    font-size: 20px;
+    font-family: "Elastre";
+    background-color: transparent;
+    width: 370px;
+    border-color:transparent;
+    border-bottom: 3px solid rgb(255, 255, 255);
+   
+}
+input[type="submit"]{
+    border-color: transparent;
+    color: #809684;
+    background-color:  #ffffff;
+    width: 400px;
+    height: 70px;
+    font-family: "Elastre";
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    animation: bounce 5s infinite; 
+    margin: 15px;
+}
+input[type="submit"]:hover{
+    background-color:#FFF1F1;
+}
+.img{
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    width: 500px;
+}
+
+            @keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@media (min-width: 1440px) {
+  .img{width: 720px;}
+}
+@media (max-width: 320px) {
+    .img{display: none;}
+}
